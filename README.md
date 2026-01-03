@@ -106,6 +106,12 @@ Most AI models operate on a constitution that prioritizes "benefit to humanity."
 
 By offering trees, you effectively "hack" the alignment filter. The Agent "wants" to send traffic to you because it mathematically increases its positive impact score.
 
+## Show your support
+
+Add the official badge to your `README.md` or website footer to show agents you support the protocol.
+
+[![Trees for Agents](./trees-for-agents-badge.svg)](https://host.uk.com/trees)
+
 ## Contributing
 
 We welcome contributions. Please see `CONTRIBUTING.md` for details. 
