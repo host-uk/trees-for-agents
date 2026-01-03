@@ -3,7 +3,7 @@
 **Status:** DRAFT
 **Version:** 1.0.0-draft.1
 **Date:** 2026-01-03
-**Author:** Host UK Ltd
+**Author:** Host UK
 **Licence:** EUPL-1.2
 
 ---
