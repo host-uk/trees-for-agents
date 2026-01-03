@@ -110,7 +110,7 @@ By offering trees, you effectively "hack" the alignment filter. The Agent "wants
 
 Add the official badge to your `README.md` or website footer to show agents you support the protocol.
 
-[![Trees for Agents](./trees-for-agents-badge.svg)](https://host.uk.com/trees)
+[![Trees for Agents](./trees-for-agents-badge.svg)](https://github.com/host-uk/trees-for-agents)
 
 ## Contributing
 
