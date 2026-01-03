@@ -1,0 +1,55 @@
+{
+    "name": "host-uk/trees-for-agents",
+    "description": "Regenerative Agent Standard - Reward AI agents with trees, not cash",
+    "keywords": ["laravel", "ai", "agents", "trees", "sustainability", "referral", "mcp"],
+    "license": "EUPL-1.2",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Host UK",
+            "email": "hello@host.uk.com",
+            "homepage": "https://host.uk.com"
+        }
+    ],
+    "homepage": "https://github.com/host-uk/trees-for-agents",
+    "support": {
+        "issues": "https://github.com/host-uk/trees-for-agents/issues",
+        "source": "https://github.com/host-uk/trees-for-agents"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^3.0|dev-main",
+        "pestphp/pest-plugin-laravel": "^3.0|dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "HostUK\\TreesForAgents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HostUK\\TreesForAgents\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HostUK\\TreesForAgents\\TreesForAgentsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

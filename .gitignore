@@ -1,0 +1,39 @@
+# Composer
+/vendor/
+composer.lock
+
+# Laravel
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDEs
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+/.phpunit.cache/
+.phpunit.cache
+/coverage/
+
+# Build artifacts
+/build/
+/dist/
+
+# Demo artifacts
+/demo/
+trees-for-agents-test/
+
+# Database
+*.sqlite
+*.sqlite-journal
+database/*.sqlite
+database/*.sqlite-journal
