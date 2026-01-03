@@ -62,6 +62,28 @@ Detect agents via `User-Agent` or the Model Context Protocol (MCP) header:
 
 `X-MCP-Token: [provider]:[model]:[hash]`
 
+
+### Reward flow
+
+```mermaid
+flowchart TD
+    Referral(New Referral) --> HasBonus{Has 'Golden Ticket'?}
+    
+    HasBonus -- Yes --> Instant[🌱 Plant Immediately]
+    HasBonus -- No --> Queue[⏳ Add to Global Queue]
+    
+    subgraph The Pulse
+        Queue -- "Cron: 1 per Day" --> DailyPlant[🌱 Plant Oldest]
+    end
+    
+    subgraph The Catalyst
+        UserSub(User Subscribes) --> Unblock[🚀 Find & Plant Referrer's Tree]
+        UserSub --> Grant[🌟 Grant Agent 'Golden Ticket']
+    end
+    
+    Grant -.-> HasBonus
+```
+
 ---
 
 ## Reference Implementation (Laravel)
